@@ -1,0 +1,46 @@
+{
+  "loss": 0.002720321569701328,
+  "reconstruction_mse": 0.0020885505877873477,
+  "kl_mean": 0.6317708983140833,
+  "selected_epoch": 29,
+  "validation_metric": {
+    "loss": 0.0025983258882271393,
+    "reconstruction_mse": 0.0019505728102688278,
+    "kl_mean": 0.6477530717849731
+  },
+  "environment": {
+    "python": "3.11.15",
+    "torch": "2.13.0+cu130",
+    "numpy": "2.4.6",
+    "host": "a100-7",
+    "device": "cuda",
+    "gpu": "NVIDIA A100-PCIE-40GB",
+    "cuda_runtime": "13.0",
+    "slurm_job_id": "590455",
+    "utc": "2026-09-14T17:00:33Z"
+  },
+  "limited_data": false,
+  "inference_and_plots_seconds": 4.082793902605772,
+  "parameters": {
+    "task": "vae",
+    "mode": "demo",
+    "data": "data",
+    "output": null,
+    "epochs": 40,
+    "batch_size": 64,
+    "size": 64,
+    "base": 32,
+    "latent": 16,
+    "lr": 0.001,
+    "beta": 0.001,
+    "limit": 0,
+    "resume": false,
+    "device": "cuda"
+  },
+  "config": {
+    "size": 64,
+    "latent": 16,
+    "base": 32
+  },
+  "mode": "demo"
+}

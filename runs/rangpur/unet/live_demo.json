@@ -1,0 +1,126 @@
+{
+  "loss": 0.034130751484018916,
+  "dice_per_class": [
+    0.9981172989289097,
+    0.9485496631809991,
+    0.9600052538415648,
+    0.9763741322351643
+  ],
+  "mean_dice": 0.9707615870466595,
+  "mean_image_dice_per_class": [
+    0.9981201349154991,
+    0.938289358116248,
+    0.9597772497902898,
+    0.9760143052348319
+  ],
+  "all_labels_above_0_9": true,
+  "confusion": [
+    [
+      25709975,
+      42510,
+      9323,
+      689
+    ],
+    [
+      36574,
+      1954654,
+      75529,
+      6
+    ],
+    [
+      7248,
+      57426,
+      3910303,
+      77941
+    ],
+    [
+      647,
+      0,
+      98347,
+      3670412
+    ]
+  ],
+  "samples": 544,
+  "note": "Global pixel-count DSC per class; image means exclude only jointly absent classes.",
+  "selected_epoch": 3,
+  "validation_metric": {
+    "loss": 0.033887468704155516,
+    "dice_per_class": [
+      0.998296346160194,
+      0.9454574294509306,
+      0.9607523351057016,
+      0.9762440113085917
+    ],
+    "mean_dice": 0.9701875305063545,
+    "mean_image_dice_per_class": [
+      0.9982990008911916,
+      0.9362663672438689,
+      0.9600794350462301,
+      0.9758467827524457
+    ],
+    "all_labels_above_0_9": true,
+    "confusion": [
+      [
+        52940673,
+        76953,
+        21401,
+        1408
+      ],
+      [
+        64787,
+        3570355,
+        142683,
+        16
+      ],
+      [
+        14704,
+        127501,
+        8324429,
+        138856
+      ],
+      [
+        1440,
+        1,
+        234977,
+        7740136
+      ]
+    ],
+    "samples": 1120,
+    "note": "Global pixel-count DSC per class; image means exclude only jointly absent classes."
+  },
+  "environment": {
+    "python": "3.11.15",
+    "torch": "2.13.0+cu130",
+    "numpy": "2.4.6",
+    "host": "a100-7",
+    "device": "cuda",
+    "gpu": "NVIDIA A100-PCIE-40GB",
+    "cuda_runtime": "13.0",
+    "slurm_job_id": "590454",
+    "utc": "2026-09-14T16:59:20Z"
+  },
+  "limited_data": false,
+  "inference_and_plots_seconds": 10.557876321021467,
+  "parameters": {
+    "task": "unet",
+    "mode": "demo",
+    "data": "data",
+    "output": null,
+    "epochs": 80,
+    "batch_size": 8,
+    "size": 256,
+    "base": 32,
+    "latent": 16,
+    "lr": 0.001,
+    "beta": 0.001,
+    "limit": 0,
+    "resume": false,
+    "device": "cuda"
+  },
+  "config": {
+    "size": 256,
+    "latent": 16,
+    "base": 32
+  },
+  "mode": "demo"
+}
