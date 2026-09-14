@@ -1,0 +1,37 @@
+{
+  "test_accuracy": 0.9524,
+  "selected_epoch": 99,
+  "inference_seconds": 8.32702554995194,
+  "train_samples": 45000,
+  "test_samples": 10000,
+  "environment": {
+    "python": "3.11.15",
+    "torch": "2.13.0+cu130",
+    "numpy": "2.4.6",
+    "host": "a100-5",
+    "device": "cuda",
+    "gpu": "NVIDIA A100-PCIE-40GB",
+    "cuda_runtime": "13.0",
+    "slurm_job_id": "590423",
+    "utc": "2026-09-14T16:28:47Z"
+  },
+  "smoke": false,
+  "parameters": {
+    "mode": "demo",
+    "epochs": 100,
+    "batch_size": 512,
+    "lr": 0.4,
+    "no_amp": false,
+    "device": "cuda",
+    "data": "/home/Student/s4983999/COMP3710-Lab2/data/cifar10",
+    "output": "/home/Student/s4983999/COMP3710-Lab2/runs/cifar",
+    "smoke": false,
+    "resume": false,
+    "require_slurm": true
+  },
+  "live_epoch_seconds": 10.827085142023861,
+  "live_train_loss": 0.010978316243489583,
+  "live_train_accuracy": 0.9969555555555556,
+  "live_epoch_samples": 45000,
+  "full_epoch_completed": true
+}
