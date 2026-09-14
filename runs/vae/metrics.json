@@ -1,0 +1,46 @@
+{
+  "loss": 0.0027203248704180997,
+  "reconstruction_mse": 0.002088550560395507,
+  "kl_mean": 0.6317742782480577,
+  "selected_epoch": 29,
+  "validation_metric": {
+    "loss": 0.0025983258882271393,
+    "reconstruction_mse": 0.0019505728102688278,
+    "kl_mean": 0.6477530717849731
+  },
+  "environment": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.1.3",
+    "host": "0421d0d7e253",
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "cuda_runtime": "12.8",
+    "slurm_job_id": null,
+    "utc": "2026-09-13T19:07:46Z"
+  },
+  "limited_data": false,
+  "inference_and_plots_seconds": 3.780124461000014,
+  "parameters": {
+    "task": "vae",
+    "mode": "train",
+    "data": "/content/COMP3710_Lab2/data",
+    "output": null,
+    "epochs": 40,
+    "batch_size": 64,
+    "size": 64,
+    "base": 32,
+    "latent": 16,
+    "lr": 0.001,
+    "beta": 0.001,
+    "limit": 0,
+    "resume": false,
+    "device": "cuda"
+  },
+  "config": {
+    "size": 64,
+    "latent": 16,
+    "base": 32
+  },
+  "mode": "train"
+}

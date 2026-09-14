@@ -1,0 +1,7 @@
+{
+  "total_training_wall_seconds": 1324.6992435920001,
+  "resumed": false,
+  "time_to_90_validation": 890.5574119550001,
+  "time_to_94_validation": 1162.2634671880005,
+  "scope": "All epochs+validation+checkpoint I/O; excludes data download/loading. Test reported once."
+}

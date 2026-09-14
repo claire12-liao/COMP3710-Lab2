@@ -1,0 +1,40 @@
+{
+  "test_accuracy": 0.9524,
+  "selected_epoch": 99,
+  "inference_seconds": 1.0835110549996898,
+  "train_samples": 45000,
+  "test_samples": 10000,
+  "environment": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.1.3",
+    "host": "0421d0d7e253",
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "cuda_runtime": "12.8",
+    "slurm_job_id": null,
+    "utc": "2026-09-13T18:34:00Z"
+  },
+  "smoke": false,
+  "parameters": {
+    "mode": "train",
+    "epochs": 100,
+    "batch_size": 512,
+    "lr": 0.4,
+    "no_amp": false,
+    "device": "cuda",
+    "data": "/content/COMP3710_Lab2/data/cifar10",
+    "output": "/content/COMP3710_Lab2/runs/cifar",
+    "smoke": false,
+    "resume": false,
+    "require_slurm": false
+  },
+  "total_training_wall_seconds": 1324.6992435920001,
+  "resumed": false,
+  "time_to_90_validation": 890.5574119550001,
+  "time_to_94_validation": 1162.2634671880005,
+  "scope": "All epochs+validation+checkpoint I/O; excludes data download/loading. Test reported once.",
+  "test_above_90": true,
+  "test_at_least_94": true,
+  "test_94_within_360_seconds": false
+}

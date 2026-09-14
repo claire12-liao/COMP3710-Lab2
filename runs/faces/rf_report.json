@@ -1,0 +1,57 @@
+{
+  "Ariel Sharon": {
+    "precision": 1.0,
+    "recall": 0.05263157894736842,
+    "f1-score": 0.1,
+    "support": 19.0
+  },
+  "Colin Powell": {
+    "precision": 0.6086956521739131,
+    "recall": 0.711864406779661,
+    "f1-score": 0.65625,
+    "support": 59.0
+  },
+  "Donald Rumsfeld": {
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4444444444444444,
+    "support": 30.0
+  },
+  "George W Bush": {
+    "precision": 0.6341463414634146,
+    "recall": 0.9774436090225563,
+    "f1-score": 0.7692307692307693,
+    "support": 133.0
+  },
+  "Gerhard Schroeder": {
+    "precision": 0.6666666666666666,
+    "recall": 0.2962962962962963,
+    "f1-score": 0.41025641025641024,
+    "support": 27.0
+  },
+  "Hugo Chavez": {
+    "precision": 1.0,
+    "recall": 0.2222222222222222,
+    "f1-score": 0.36363636363636365,
+    "support": 18.0
+  },
+  "Tony Blair": {
+    "precision": 0.875,
+    "recall": 0.3888888888888889,
+    "f1-score": 0.5384615384615384,
+    "support": 36.0
+  },
+  "accuracy": 0.6490683229813664,
+  "macro avg": {
+    "precision": 0.7787393324243802,
+    "recall": 0.42609719078433234,
+    "f1-score": 0.46889707514707507,
+    "support": 322.0
+  },
+  "weighted avg": {
+    "precision": 0.7042065431456367,
+    "recall": 0.6490683229813664,
+    "f1-score": 0.6002073560497473,
+    "support": 322.0
+  }
+}

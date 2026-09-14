@@ -1,0 +1,5 @@
+{
+  "rf_test_accuracy": 0.6490683229813664,
+  "cnn_test_accuracy": 0.6180124223602484,
+  "cnn_outperformed_rf": false
+}

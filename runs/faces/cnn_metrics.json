@@ -1,0 +1,25 @@
+{
+  "test_accuracy": 0.6180124223602484,
+  "best_validation_accuracy": 0.5670103092783505,
+  "selected_epoch": 58,
+  "environment": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.1.3",
+    "host": "36135a080624",
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "cuda_runtime": "12.8",
+    "slurm_job_id": null,
+    "utc": "2026-09-14T12:13:22Z"
+  },
+  "parameters": {
+    "mode": "demo",
+    "epochs": 60,
+    "batch_size": 64,
+    "lr": 0.001,
+    "device": "cuda",
+    "data": "/content/COMP3710_Lab2/data/lfw",
+    "output": "/content/COMP3710_Lab2/runs/faces"
+  }
+}

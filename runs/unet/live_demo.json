@@ -1,0 +1,126 @@
+{
+  "loss": 0.034130818155758524,
+  "dice_per_class": [
+    0.9981172403667206,
+    0.9485467460835858,
+    0.9600047333710268,
+    0.9763738536533461
+  ],
+  "mean_dice": 0.9707606433686697,
+  "mean_image_dice_per_class": [
+    0.9981200782691731,
+    0.9382851604810533,
+    0.9597770551986554,
+    0.9760138945763602
+  ],
+  "all_labels_above_0_9": true,
+  "confusion": [
+    [
+      25709969,
+      42518,
+      9321,
+      689
+    ],
+    [
+      36573,
+      1954657,
+      75527,
+      6
+    ],
+    [
+      7246,
+      57434,
+      3910298,
+      77940
+    ],
+    [
+      647,
+      0,
+      98350,
+      3670409
+    ]
+  ],
+  "samples": 544,
+  "note": "Global pixel-count DSC per class; image means exclude only jointly absent classes.",
+  "selected_epoch": 3,
+  "validation_metric": {
+    "loss": 0.033887468704155516,
+    "dice_per_class": [
+      0.998296346160194,
+      0.9454574294509306,
+      0.9607523351057016,
+      0.9762440113085917
+    ],
+    "mean_dice": 0.9701875305063545,
+    "mean_image_dice_per_class": [
+      0.9982990008911916,
+      0.9362663672438689,
+      0.9600794350462301,
+      0.9758467827524457
+    ],
+    "all_labels_above_0_9": true,
+    "confusion": [
+      [
+        52940673,
+        76953,
+        21401,
+        1408
+      ],
+      [
+        64787,
+        3570355,
+        142683,
+        16
+      ],
+      [
+        14704,
+        127501,
+        8324429,
+        138856
+      ],
+      [
+        1440,
+        1,
+        234977,
+        7740136
+      ]
+    ],
+    "samples": 1120,
+    "note": "Global pixel-count DSC per class; image means exclude only jointly absent classes."
+  },
+  "environment": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.1.3",
+    "host": "36135a080624",
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "cuda_runtime": "12.8",
+    "slurm_job_id": null,
+    "utc": "2026-09-14T11:00:33Z"
+  },
+  "limited_data": false,
+  "inference_and_plots_seconds": 11.167973525999969,
+  "parameters": {
+    "task": "unet",
+    "mode": "demo",
+    "data": "/content/COMP3710_Lab2/data",
+    "output": null,
+    "epochs": 80,
+    "batch_size": 8,
+    "size": 256,
+    "base": 32,
+    "latent": 16,
+    "lr": 0.001,
+    "beta": 0.001,
+    "limit": 0,
+    "resume": false,
+    "device": "cuda"
+  },
+  "config": {
+    "size": 256,
+    "latent": 16,
+    "base": 32
+  },
+  "mode": "demo"
+}

@@ -1,0 +1,32 @@
+{
+  "test_accuracy": 0.9524,
+  "selected_epoch": 99,
+  "inference_seconds": 1.6084176320000552,
+  "train_samples": 45000,
+  "test_samples": 10000,
+  "environment": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.1.3",
+    "host": "36135a080624",
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "cuda_runtime": "12.8",
+    "slurm_job_id": null,
+    "utc": "2026-09-14T11:36:22Z"
+  },
+  "smoke": false,
+  "parameters": {
+    "mode": "evaluate",
+    "epochs": 100,
+    "batch_size": 512,
+    "lr": 0.4,
+    "no_amp": false,
+    "device": "cuda",
+    "data": "/content/COMP3710_Lab2/data/cifar10",
+    "output": "/content/COMP3710_Lab2/runs/cifar",
+    "smoke": false,
+    "resume": false,
+    "require_slurm": false
+  }
+}
